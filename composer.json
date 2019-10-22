@@ -1,0 +1,19 @@
+{
+    "name": "nicolas/php_composer",
+    "authors": [
+        {
+            "name": "Nicolas",
+            "email": "nbrunstein67@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.12"
+    },
+    "autoload": {
+    "psr-4": {
+        "app\\": "src/wcs/"
+
+    }
+
+}
+}
